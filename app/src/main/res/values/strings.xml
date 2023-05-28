@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">The Duellists</string>
+    <string name="start_game">Start game</string>
+    <string name="fight">Fight!</string>
+    <string name="turn_number">Turn %d</string>
+    <string name="green_option">Green</string>
+    <string name="blue_option">Blue</string>
+    <string name="red_option">Red</string>
+    <string name="player_sword_attack">You slash with a sword.</string>
+    <string name="player_arrow_attack">You shoot an arrow.</string>
+    <string name="player_fireball_attack">You cast a ball of fire.</string>
+    <string name="opponent_sword_attack">The opponent slashes with a sword.</string>
+    <string name="opponent_arrow_attack">The opponent shoots an arrow.</string>
+    <string name="opponent_fireball_attack">The opponent casts a ball of fire.</string>
+    <string name="player_armour_defense">You put on your armour.</string>
+    <string name="player_shield_defense">You put up your shield.</string>
+    <string name="player_barrier_defense">You create a magical barrier.</string>
+    <string name="opponent_armour_defense">The opponent puts on their armour.</string>
+    <string name="opponent_shield_defense">The opponent puts up their shield.</string>
+    <string name="opponent_barrier_defense">The opponent creates a magical barrier.</string>
+    <string name="player_hp">Player: %d HP</string>
+    <string name="opponent_hp">Opponent: %d HP</string>
+    <string name="player_damage_inflicted">You inflicted %d damage.</string>
+    <string name="player_damage_suffered">You suffered %d damage.</string>
+    <string name="opponent_damage_inflicted">The opponent inflicted %d damage.</string>
+    <string name="opponent_damage_suffered">The opponent suffered %d damage.</string>
+    <string name="player_won">Congratulations, you won!</string>
+    <string name="opponent_won">Oh, no! The opponent won!</string>
+    <string name="player_armour_defeat">Even though you put on your armour,
+         the opponent is too powerful and defeats you.</string>
+    <string name="player_shield_defeat">Even though you put up your shield,
+         the opponent is too powerful and defeats you.</string>
+    <string name="player_barrier_defeat">Even though you create a magical barrier,
+         the opponent is too powerful and defeats you.</string>
+    <string name="opponent_armour_defeat">Even though the opponent puts on their armour,
+         you are too powerful and defeat your opponent.</string>
+    <string name="opponent_shield_defeat">Even though the opponent puts up their shield,
+         you are too powerful and defeat your opponent.</string>
+    <string name="opponent_barrier_defeat">Even though the opponent creates a magical barrier,
+         you are too powerful and defeat your opponent.</string>
+    <string name="player_fireball_defeat">With a well-timed magical barrier,
+         the opponent reflects your attack and defeats you.</string>
+    <string name="opponent_fireball_defeat">With a well-timed magical barrier,
+         you reflect your opponents attack and defeat them.</string>
+    <string name="finish">Finish</string>
+    <string name="sword">Sword</string>
+    <string name="armour">Armour</string>
+    <string name="arrow">Arrow</string>
+    <string name="shield">Shield</string>
+    <string name="fireball">Fireball</string>
+    <string name="barrier">Barrier</string>
+
+    <string name="rules">Rules</string>
+    <string name="pick_attack">Pick an attack option:</string>
+    <string name="pick_defence">Pick a defence option:</string>
+    <string name="rules_line1">This is a game that simulates a duel between two duellists, taking turns attacking and defending.</string>
+    <string name="rules_line2">One duellist is controlled by you and the other by CPU. You will start by attacking on Turn 1, then defending on Turn 2, attacking again on Turn 3 and so on until the end of the game.</string>
+    <string name="rules_line3">Both duellists start with 100 HP and the first to drop to zero, loses the game.</string>
+    <string name="rules_line4">In the table below, you can see how much damage does each attack option inflict against each defence option:</string>
+    <string name="rules_line5">*If the defender blocks the Fireball attack with Barrier, the attacker suffers 10 damage.</string>
+
+</resources>

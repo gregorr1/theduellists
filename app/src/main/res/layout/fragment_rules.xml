@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rules_line1"
+            style="@style/Widget.Theduellists.TextView"
+            android:padding="@dimen/base_padding"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rules_line2"
+            style="@style/Widget.Theduellists.TextView.BottomRow"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rules_line3"
+            style="@style/Widget.Theduellists.TextView.BottomRow"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rules_line4"
+            style="@style/Widget.Theduellists.TextView.BottomRow"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_gravity="center">
+
+            <TableLayout
+                android:id="@+id/table_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/base_padding"
+                >
+
+                <TableRow
+                    android:background="@color/shaded_background"
+                    >
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_column="1"
+                        android:text="@string/armour"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="@string/shield"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="@string/barrier"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="0"
+                        android:text="@string/sword"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                    <TextView
+                        android:text="3"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                    <TextView
+                        android:text="6"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                    <TextView
+                        android:text="10"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                </TableRow>
+
+                <TableRow
+                    android:background="@color/shaded_background">
+                    <TextView
+                        android:layout_column="0"
+                        android:text="@string/arrow"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                    <TextView
+                        android:text="8"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                    <TextView
+                        android:text="0"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                    <TextView
+                        android:text="12"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="0"
+                        android:text="@string/fireball"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                    <TextView
+                        android:text="10"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                    <TextView
+                        android:text="14"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                    <TextView
+                        android:text="10*"
+                        style="@style/Widget.Theduellists.TextView.TableItem" />
+                </TableRow>
+
+            </TableLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Theduellists.TextView"
+            android:padding="@dimen/base_padding"
+            android:text="@string/rules_line5"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

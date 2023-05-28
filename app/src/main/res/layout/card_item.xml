@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GameFragment">
+
+    <data>
+        <variable
+            name="gameFragment"
+            type="com.example.theduellists.GameFragment" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="6dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/background"
+            >
+
+            <TextView
+                android:id="@+id/turn_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Turn 1"
+                style="@style/Widget.Theduellists.TextView.TurnLabel"
+                />
+
+            <TextView
+                android:id="@+id/attack_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Attacker chose this."
+                style="@style/Widget.Theduellists.TextView.TopRow" />
+
+            <TextView
+                android:id="@+id/defence_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Defender chose this."
+                style="@style/Widget.Theduellists.TextView.MiddleRow" />
+
+            <TextView
+                android:id="@+id/damage_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="So much damage."
+                style="@style/Widget.Theduellists.TextView.BottomRow" />
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>

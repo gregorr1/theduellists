@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="base_padding">8dp</dimen>
+    <dimen name="start_button_padding">16dp</dimen>
+    <dimen name="table_padding">5dp</dimen>
+</resources>
