@@ -59,7 +59,7 @@
                 >
 
                 <TableRow
-                    android:background="@color/shaded_background"
+                    android:background="?attr/backgroundTint"
                     >
 
                     <TextView
@@ -94,7 +94,7 @@
                 </TableRow>
 
                 <TableRow
-                    android:background="@color/shaded_background">
+                    android:background="?attr/backgroundTint">
                     <TextView
                         android:layout_column="0"
                         android:text="@string/arrow"

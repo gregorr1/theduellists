@@ -1,6 +1,5 @@
 package com.example.theduellists
 
-import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -197,7 +196,6 @@ class GameFragment : Fragment() {
 
     private fun showEndgameDialog() {
         val endgameDialog = MaterialAlertDialogBuilder(requireContext())
-            .setBackground(ColorDrawable(resources.getColor(R.color.background)))
             .setTitle(setEndgameTitle())
             .setMessage(setEndgameMessage())
             .setCancelable(false)
